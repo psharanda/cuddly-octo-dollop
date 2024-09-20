@@ -6,7 +6,7 @@ let packageName = "Superduper"
 
 let package = Package(
     name: "Superduper",
-    platforms: [.iOS(.v17_5)],
+    platforms: [.iOS(.v17)],
     products: [.library(name: "Superduper", targets: ["Superduper"])],
     dependencies: [],
     targets: [
