@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Superduper",
-            url: "https://github.com/psharanda/cuddly-octo-dollop/releases/download/1.0.0/Superduper.xcframework.zip",
-            checksum: "48de5e19ee1a17fce0d017966e8c03ccf841f27525f0e760edfc06736e83e947"
+            url: "https://github.com/psharanda/cuddly-octo-dollop/releases/download/2.0.0/Superduper.xcframework.zip",
+            checksum: "3fd042f3c58305b5827b8f1b0d490829ba40a87578524f33f43242fa499022af"
         )
     ]
 )
