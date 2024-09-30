@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SCCameraKit",
+    defaultLocalization: "en",
     platforms: [.iOS(.v12)],
     products: [
         .library(name: "SCSDKCameraKit", targets: ["SCSDKCameraKit"]),
@@ -11,7 +12,7 @@ let package = Package(
         .library(name: "SCSDKCameraKitLoginKitAuth", targets: ["SCSDKCameraKitLoginKitAuth"]),
         .library(name: "SCSDKCameraKitPushToDeviceExtension", targets: ["SCSDKCameraKitPushToDeviceExtension"]),
         .library(name: "SCCameraKitReferenceUI", targets: ["SCCameraKitReferenceUI"]),
-        //.library(name: "SCCameraKitReferenceSwiftUI", targets: ["SCCameraKitReferenceSwiftUI"]),
+        .library(name: "SCCameraKitReferenceSwiftUI", targets: ["SCCameraKitReferenceSwiftUI"]),
         
     ],
     dependencies: [],
@@ -37,6 +38,6 @@ let package = Package(
             checksum: "937b82e8c36dd6bb15e1ade7117e4165c7d416b9d5e8e2d83fa04489a3c69e3f"
         ),
         .target(name: "SCCameraKitReferenceUI", dependencies: ["SCSDKCameraKit"], path: "Sources/SCCameraKitReferenceUI"),
-//        .target(name: "SCCameraKitReferenceSwiftUI", dependencies: ["SCCameraKitReferenceUI"], path: "Sources/SCCameraKitReferenceSwiftUI")
+        .target(name: "SCCameraKitReferenceSwiftUI", dependencies: ["SCCameraKitReferenceUI"], path: "Sources/SCCameraKitReferenceSwiftUI")
     ]
 )
