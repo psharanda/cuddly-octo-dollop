@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "SCSDKCameraKitBaseExtension", targets: ["SCSDKCameraKitBaseExtension"]),
         .library(name: "SCSDKCameraKitLoginKitAuth", targets: ["SCSDKCameraKitLoginKitAuth"]),
         .library(name: "SCSDKCameraKitPushToDeviceExtension", targets: ["SCSDKCameraKitPushToDeviceExtension"]),
-        //.library(name: "SCCameraKitReferenceUI", targets: ["SCCameraKitReferenceUI"]),
+        .library(name: "SCCameraKitReferenceUI", targets: ["SCCameraKitReferenceUI"]),
         //.library(name: "SCCameraKitReferenceSwiftUI", targets: ["SCCameraKitReferenceSwiftUI"]),
         
     ],
@@ -35,8 +35,8 @@ let package = Package(
             name: "SCSDKCameraKitPushToDeviceExtension",
             url: "https://github.com/psharanda/cuddly-octo-dollop/releases/download/1.34.2/SCSDKCameraKitPushToDeviceExtension.xcframework.zip",
             checksum: "937b82e8c36dd6bb15e1ade7117e4165c7d416b9d5e8e2d83fa04489a3c69e3f"
-        )
-//        .target(name: "SCCameraKitReferenceUI", dependencies: ["SCSDKCameraKit"], path: "Sources/SCCameraKitReferenceUI"),
+        ),
+        .target(name: "SCCameraKitReferenceUI", dependencies: ["SCSDKCameraKit"], path: "Sources/SCCameraKitReferenceUI"),
 //        .target(name: "SCCameraKitReferenceSwiftUI", dependencies: ["SCCameraKitReferenceUI"], path: "Sources/SCCameraKitReferenceSwiftUI")
     ]
 )
