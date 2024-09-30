@@ -6,10 +6,10 @@ let package = Package(
     name: "SCCameraKit",
     platforms: [.iOS(.v12)],
     products: [
-        .library(name: "SCSDKCameraKit", targets: ["SCSDKCameraKit"]),
-        .library(name: "SCSDKCameraKitBaseExtension", targets: ["SCSDKCameraKitBaseExtension"]),
-        .library(name: "SCSDKCameraKitLoginKitAuth", targets: ["SCSDKCameraKitLoginKitAuth"]),
-        .library(name: "SCSDKCameraKitPushToDeviceExtension", targets: ["SCSDKCameraKitPushToDeviceExtension"]),
+        .library(name: "SCSDKCameraKit", type: .dynamic, targets: ["SCSDKCameraKit"]),
+        .library(name: "SCSDKCameraKitBaseExtension", type: .dynamic, targets: ["SCSDKCameraKitBaseExtension"]),
+        .library(name: "SCSDKCameraKitLoginKitAuth", type: .dynamic, targets: ["SCSDKCameraKitLoginKitAuth"]),
+        .library(name: "SCSDKCameraKitPushToDeviceExtension", type: .dynamic, targets: ["SCSDKCameraKitPushToDeviceExtension"]),
         //.library(name: "SCCameraKitReferenceUI", targets: ["SCCameraKitReferenceUI"]),
         //.library(name: "SCCameraKitReferenceSwiftUI", targets: ["SCCameraKitReferenceSwiftUI"]),
         
