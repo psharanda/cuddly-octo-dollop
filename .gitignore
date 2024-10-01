@@ -88,3 +88,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Samples/CameraKitAlternateCarouselSample/CameraKitAlternateCarouselSample.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+Samples/CameraKitSample/CameraKitSample.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
