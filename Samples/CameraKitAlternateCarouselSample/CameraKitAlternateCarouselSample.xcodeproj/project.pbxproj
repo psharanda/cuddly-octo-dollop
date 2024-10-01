@@ -961,7 +961,7 @@
 			repositoryURL = "https://github.com/psharanda/cuddly-octo-dollop";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.34.7;
+				minimumVersion = 1.34.0;
 			};
 		};
 		1B2B8A352CAC0DD00069D310 /* XCRemoteSwiftPackageReference "snap-kit-spm" */ = {
