@@ -16,13 +16,13 @@
 		0FF07EDA23D79DC500CFFA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF07ED823D79DC500CFFA3F /* LaunchScreen.storyboard */; };
 		0FF07EF023D79DC500CFFA3F /* CameraKitSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF07EEF23D79DC500CFFA3F /* CameraKitSampleUITests.swift */; };
 		0FF07F0223D7BFC100CFFA3F /* lenses in Resources */ = {isa = PBXBuildFile; fileRef = 0FF07F0123D7BFC100CFFA3F /* lenses */; };
+		1B9ABADE2CAEECCB00438C85 /* SCSDKCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABADD2CAEECCB00438C85 /* SCSDKCameraKit */; };
+		1B9ABAE02CAEECCB00438C85 /* SCSDKCameraKitBaseExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABADF2CAEECCB00438C85 /* SCSDKCameraKitBaseExtension */; };
+		1B9ABAE22CAEECCB00438C85 /* SCSDKCameraKitLoginKitAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABAE12CAEECCB00438C85 /* SCSDKCameraKitLoginKitAuth */; };
+		1B9ABAE42CAEECCB00438C85 /* SCSDKCameraKitPushToDeviceExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABAE32CAEECCB00438C85 /* SCSDKCameraKitPushToDeviceExtension */; };
+		1B9ABAE62CAEECCB00438C85 /* SCSDKCameraKitReferenceSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABAE52CAEECCB00438C85 /* SCSDKCameraKitReferenceSwiftUI */; };
+		1B9ABAE82CAEECCB00438C85 /* SCSDKCameraKitReferenceUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABAE72CAEECCB00438C85 /* SCSDKCameraKitReferenceUI */; };
 		1BADB63B2CAC084D00B1CC2B /* SnapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB63A2CAC084D00B1CC2B /* SnapSDK */; };
-		1BADB63D2CAC085F00B1CC2B /* SCSDKCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB63C2CAC085F00B1CC2B /* SCSDKCameraKit */; };
-		1BADB63F2CAC085F00B1CC2B /* SCSDKCameraKitBaseExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB63E2CAC085F00B1CC2B /* SCSDKCameraKitBaseExtension */; };
-		1BADB6412CAC085F00B1CC2B /* SCSDKCameraKitLoginKitAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB6402CAC085F00B1CC2B /* SCSDKCameraKitLoginKitAuth */; };
-		1BADB6432CAC085F00B1CC2B /* SCSDKCameraKitPushToDeviceExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB6422CAC085F00B1CC2B /* SCSDKCameraKitPushToDeviceExtension */; };
-		1BADB6452CAC085F00B1CC2B /* SCSDKCameraKitReferenceSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB6442CAC085F00B1CC2B /* SCSDKCameraKitReferenceSwiftUI */; };
-		1BADB6472CAC085F00B1CC2B /* SCSDKCameraKitReferenceUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1BADB6462CAC085F00B1CC2B /* SCSDKCameraKitReferenceUI */; };
 		5093DB202943E2A40092D8F2 /* CustomizedCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DB1F2943E2A40092D8F2 /* CustomizedCameraViewController.swift */; };
 		50F8ED132A032D2800430FAF /* DebugStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F8ED122A032D2800430FAF /* DebugStore.swift */; };
 		50F8ED152A0334F300430FAF /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F8ED142A0334F300430FAF /* DebugView.swift */; };
@@ -67,6 +67,7 @@
 		0FF07EEF23D79DC500CFFA3F /* CameraKitSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraKitSampleUITests.swift; sourceTree = "<group>"; };
 		0FF07EF123D79DC500CFFA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF07F0123D7BFC100CFFA3F /* lenses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lenses; sourceTree = "<group>"; };
+		1B9ABADC2CAEECA100438C85 /* camera-kit-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "camera-kit-ios-sdk"; path = ../..; sourceTree = "<group>"; };
 		5093DB1F2943E2A40092D8F2 /* CustomizedCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedCameraViewController.swift; sourceTree = "<group>"; };
 		50F8ED122A032D2800430FAF /* DebugStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugStore.swift; sourceTree = "<group>"; };
 		50F8ED142A0334F300430FAF /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
@@ -80,13 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BADB6472CAC085F00B1CC2B /* SCSDKCameraKitReferenceUI in Frameworks */,
-				1BADB63F2CAC085F00B1CC2B /* SCSDKCameraKitBaseExtension in Frameworks */,
-				1BADB6452CAC085F00B1CC2B /* SCSDKCameraKitReferenceSwiftUI in Frameworks */,
-				1BADB6432CAC085F00B1CC2B /* SCSDKCameraKitPushToDeviceExtension in Frameworks */,
+				1B9ABAE82CAEECCB00438C85 /* SCSDKCameraKitReferenceUI in Frameworks */,
+				1B9ABAE02CAEECCB00438C85 /* SCSDKCameraKitBaseExtension in Frameworks */,
+				1B9ABAE62CAEECCB00438C85 /* SCSDKCameraKitReferenceSwiftUI in Frameworks */,
+				1B9ABAE42CAEECCB00438C85 /* SCSDKCameraKitPushToDeviceExtension in Frameworks */,
 				1BADB63B2CAC084D00B1CC2B /* SnapSDK in Frameworks */,
-				1BADB6412CAC085F00B1CC2B /* SCSDKCameraKitLoginKitAuth in Frameworks */,
-				1BADB63D2CAC085F00B1CC2B /* SCSDKCameraKit in Frameworks */,
+				1B9ABAE22CAEECCB00438C85 /* SCSDKCameraKitLoginKitAuth in Frameworks */,
+				1B9ABADE2CAEECCB00438C85 /* SCSDKCameraKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +122,7 @@
 		0F7116F22519D93F003EA17A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B9ABADC2CAEECA100438C85 /* camera-kit-ios-sdk */,
 				0F711700251A9C4F003EA17A /* SCSDKCoreKit.framework */,
 				0F711701251A9C4F003EA17A /* SCSDKCreativeKit.framework */,
 				0F711725251AB775003EA17A /* SCSDKCameraKit.xcframework */,
@@ -211,12 +213,12 @@
 			name = CameraKitSample;
 			packageProductDependencies = (
 				1BADB63A2CAC084D00B1CC2B /* SnapSDK */,
-				1BADB63C2CAC085F00B1CC2B /* SCSDKCameraKit */,
-				1BADB63E2CAC085F00B1CC2B /* SCSDKCameraKitBaseExtension */,
-				1BADB6402CAC085F00B1CC2B /* SCSDKCameraKitLoginKitAuth */,
-				1BADB6422CAC085F00B1CC2B /* SCSDKCameraKitPushToDeviceExtension */,
-				1BADB6442CAC085F00B1CC2B /* SCSDKCameraKitReferenceSwiftUI */,
-				1BADB6462CAC085F00B1CC2B /* SCSDKCameraKitReferenceUI */,
+				1B9ABADD2CAEECCB00438C85 /* SCSDKCameraKit */,
+				1B9ABADF2CAEECCB00438C85 /* SCSDKCameraKitBaseExtension */,
+				1B9ABAE12CAEECCB00438C85 /* SCSDKCameraKitLoginKitAuth */,
+				1B9ABAE32CAEECCB00438C85 /* SCSDKCameraKitPushToDeviceExtension */,
+				1B9ABAE52CAEECCB00438C85 /* SCSDKCameraKitReferenceSwiftUI */,
+				1B9ABAE72CAEECCB00438C85 /* SCSDKCameraKitReferenceUI */,
 			);
 			productName = CameraKitSample;
 			productReference = 0FF07ECA23D79DC400CFFA3F /* CameraKitSample.app */;
@@ -291,7 +293,6 @@
 			);
 			mainGroup = 0FF07EC123D79DC400CFFA3F;
 			packageReferences = (
-				1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */,
 				1BADB6392CAC084D00B1CC2B /* XCRemoteSwiftPackageReference "snap-kit-spm" */,
 			);
 			productRefGroup = 0FF07ECB23D79DC400CFFA3F /* Products */;
@@ -825,14 +826,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/psharanda/cuddly-octo-dollop";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.34.0;
-			};
-		};
 		1BADB6392CAC084D00B1CC2B /* XCRemoteSwiftPackageReference "snap-kit-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Snapchat/snap-kit-spm";
@@ -844,40 +837,34 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1B9ABADD2CAEECCB00438C85 /* SCSDKCameraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKit;
+		};
+		1B9ABADF2CAEECCB00438C85 /* SCSDKCameraKitBaseExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKitBaseExtension;
+		};
+		1B9ABAE12CAEECCB00438C85 /* SCSDKCameraKitLoginKitAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKitLoginKitAuth;
+		};
+		1B9ABAE32CAEECCB00438C85 /* SCSDKCameraKitPushToDeviceExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKitPushToDeviceExtension;
+		};
+		1B9ABAE52CAEECCB00438C85 /* SCSDKCameraKitReferenceSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKitReferenceSwiftUI;
+		};
+		1B9ABAE72CAEECCB00438C85 /* SCSDKCameraKitReferenceUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKitReferenceUI;
+		};
 		1BADB63A2CAC084D00B1CC2B /* SnapSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1BADB6392CAC084D00B1CC2B /* XCRemoteSwiftPackageReference "snap-kit-spm" */;
 			productName = SnapSDK;
-		};
-		1BADB63C2CAC085F00B1CC2B /* SCSDKCameraKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKit;
-		};
-		1BADB63E2CAC085F00B1CC2B /* SCSDKCameraKitBaseExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKitBaseExtension;
-		};
-		1BADB6402CAC085F00B1CC2B /* SCSDKCameraKitLoginKitAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKitLoginKitAuth;
-		};
-		1BADB6422CAC085F00B1CC2B /* SCSDKCameraKitPushToDeviceExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKitPushToDeviceExtension;
-		};
-		1BADB6442CAC085F00B1CC2B /* SCSDKCameraKitReferenceSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKitReferenceSwiftUI;
-		};
-		1BADB6462CAC085F00B1CC2B /* SCSDKCameraKitReferenceUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1BADB6382CAC084000B1CC2B /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKitReferenceUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

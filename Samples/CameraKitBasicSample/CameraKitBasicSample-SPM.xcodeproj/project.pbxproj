@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B31BB752CAC127400AE5DFC /* SCSDKCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B31BB742CAC127400AE5DFC /* SCSDKCameraKit */; };
+		1B9ABAD92CAEEBC400438C85 /* camera-kit-ios-sdk in Resources */ = {isa = PBXBuildFile; fileRef = 1B9ABAD82CAEEBC400438C85 /* camera-kit-ios-sdk */; };
+		1B9ABADB2CAEEBE400438C85 /* SCSDKCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABADA2CAEEBE400438C85 /* SCSDKCameraKit */; };
 		A13A788A2C6D64F6007B1C01 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = A13A78892C6D64F6007B1C01 /* Documentation.docc */; };
 		A1E56DFC2BED6434009EE2A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E56DFB2BED6434009EE2A8 /* AppDelegate.swift */; };
 		A1E56E002BED6434009EE2A8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E56DFF2BED6434009EE2A8 /* CameraViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B9ABAD82CAEEBC400438C85 /* camera-kit-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "camera-kit-ios-sdk"; path = ../..; sourceTree = "<group>"; };
 		A13A78892C6D64F6007B1C01 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		A1E56DF82BED6434009EE2A8 /* CameraKitBasicSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraKitBasicSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E56DFB2BED6434009EE2A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,18 +30,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B31BB752CAC127400AE5DFC /* SCSDKCameraKit in Frameworks */,
+				1B9ABADB2CAEEBE400438C85 /* SCSDKCameraKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B13A28B2CAEEB5900BAEDAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B9ABAD82CAEEBC400438C85 /* camera-kit-ios-sdk */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1E56DEF2BED6434009EE2A8 = {
 			isa = PBXGroup;
 			children = (
 				A1E56DFA2BED6434009EE2A8 /* CameraKitBasicSample */,
 				A1E56DF92BED6434009EE2A8 /* Products */,
+				1B13A28B2CAEEB5900BAEDAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +91,7 @@
 			);
 			name = CameraKitBasicSample;
 			packageProductDependencies = (
-				1B31BB742CAC127400AE5DFC /* SCSDKCameraKit */,
+				1B9ABADA2CAEEBE400438C85 /* SCSDKCameraKit */,
 			);
 			productName = CameraKitBasicSample;
 			productReference = A1E56DF82BED6434009EE2A8 /* CameraKitBasicSample.app */;
@@ -101,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1E56DF32BED6434009EE2A8 /* Build configuration list for PBXProject "CameraKitBasicSample" */;
+			buildConfigurationList = A1E56DF32BED6434009EE2A8 /* Build configuration list for PBXProject "CameraKitBasicSample-SPM" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +122,6 @@
 			);
 			mainGroup = A1E56DEF2BED6434009EE2A8;
 			packageReferences = (
-				1B31BB732CAC127400AE5DFC /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */,
 			);
 			productRefGroup = A1E56DF92BED6434009EE2A8 /* Products */;
 			projectDirPath = "";
@@ -128,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E56E082BED6435009EE2A8 /* LaunchScreen.storyboard in Resources */,
+				1B9ABAD92CAEEBC400438C85 /* camera-kit-ios-sdk in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1E56DF32BED6434009EE2A8 /* Build configuration list for PBXProject "CameraKitBasicSample" */ = {
+		A1E56DF32BED6434009EE2A8 /* Build configuration list for PBXProject "CameraKitBasicSample-SPM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1E56E0A2BED6435009EE2A8 /* Debug */,
@@ -356,21 +367,9 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		1B31BB732CAC127400AE5DFC /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/psharanda/cuddly-octo-dollop";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.34.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		1B31BB742CAC127400AE5DFC /* SCSDKCameraKit */ = {
+		1B9ABADA2CAEEBE400438C85 /* SCSDKCameraKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1B31BB732CAC127400AE5DFC /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
 			productName = SCSDKCameraKit;
 		};
 /* End XCSwiftPackageProductDependency section */

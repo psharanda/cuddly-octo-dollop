@@ -14,8 +14,8 @@
 		0FF07ECE23D79DC400CFFA3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF07ECD23D79DC400CFFA3F /* AppDelegate.swift */; };
 		0FF07EDA23D79DC500CFFA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF07ED823D79DC500CFFA3F /* LaunchScreen.storyboard */; };
 		0FF07F0223D7BFC100CFFA3F /* lenses in Resources */ = {isa = PBXBuildFile; fileRef = 0FF07F0123D7BFC100CFFA3F /* lenses */; };
-		1B2B8A342CAC0DBC0069D310 /* SCSDKCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B2B8A332CAC0DBC0069D310 /* SCSDKCameraKit */; };
 		1B2B8A372CAC0DDD0069D310 /* SnapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1B2B8A362CAC0DDD0069D310 /* SnapSDK */; };
+		1B9ABAEB2CAEED8D00438C85 /* SCSDKCameraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9ABAEA2CAEED8D00438C85 /* SCSDKCameraKit */; };
 		A61C123928DD1ADE00F36769 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C11FE28DD1ADE00F36769 /* CameraButton.swift */; };
 		A61C123A28DD1ADE00F36769 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C120028DD1ADE00F36769 /* CameraController.swift */; };
 		A61C123B28DD1ADE00F36769 /* Reference.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61C120228DD1ADE00F36769 /* Reference.xcassets */; };
@@ -76,6 +76,7 @@
 		0FF07EE023D79DC500CFFA3F /* CameraKitAlternateCarouselSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraKitAlternateCarouselSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF07EEB23D79DC500CFFA3F /* CameraKitAlternateCarouselSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraKitAlternateCarouselSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF07F0123D7BFC100CFFA3F /* lenses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lenses; sourceTree = "<group>"; };
+		1B9ABAE92CAEED7F00438C85 /* camera-kit-ios-sdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "camera-kit-ios-sdk"; path = ../..; sourceTree = "<group>"; };
 		A61C11FE28DD1ADE00F36769 /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
 		A61C120028DD1ADE00F36769 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		A61C120228DD1ADE00F36769 /* Reference.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Reference.xcassets; sourceTree = "<group>"; };
@@ -109,8 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2B8A342CAC0DBC0069D310 /* SCSDKCameraKit in Frameworks */,
 				1B2B8A372CAC0DDD0069D310 /* SnapSDK in Frameworks */,
+				1B9ABAEB2CAEED8D00438C85 /* SCSDKCameraKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +144,7 @@
 		0F7116F22519D93F003EA17A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B9ABAE92CAEED7F00438C85 /* camera-kit-ios-sdk */,
 				0F711700251A9C4F003EA17A /* SCSDKCoreKit.framework */,
 				0F711701251A9C4F003EA17A /* SCSDKCreativeKit.framework */,
 				0F711725251AB775003EA17A /* SCSDKCameraKit.xcframework */,
@@ -339,8 +341,8 @@
 			);
 			name = CameraKitAlternateCarouselSample;
 			packageProductDependencies = (
-				1B2B8A332CAC0DBC0069D310 /* SCSDKCameraKit */,
 				1B2B8A362CAC0DDD0069D310 /* SnapSDK */,
+				1B9ABAEA2CAEED8D00438C85 /* SCSDKCameraKit */,
 			);
 			productName = CameraKitSample;
 			productReference = 0FF07ECA23D79DC400CFFA3F /* CameraKitAlternateCarouselSample.app */;
@@ -405,7 +407,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0FF07EC523D79DC400CFFA3F /* Build configuration list for PBXProject "CameraKitAlternateCarouselSample" */;
+			buildConfigurationList = 0FF07EC523D79DC400CFFA3F /* Build configuration list for PBXProject "CameraKitAlternateCarouselSample-SPM" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -415,7 +417,6 @@
 			);
 			mainGroup = 0FF07EC123D79DC400CFFA3F;
 			packageReferences = (
-				1B2B8A322CAC0DBC0069D310 /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */,
 				1B2B8A352CAC0DD00069D310 /* XCRemoteSwiftPackageReference "snap-kit-spm" */,
 			);
 			productRefGroup = 0FF07ECB23D79DC400CFFA3F /* Products */;
@@ -913,7 +914,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FF07EC523D79DC400CFFA3F /* Build configuration list for PBXProject "CameraKitAlternateCarouselSample" */ = {
+		0FF07EC523D79DC400CFFA3F /* Build configuration list for PBXProject "CameraKitAlternateCarouselSample-SPM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FF07EF223D79DC500CFFA3F /* Debug */,
@@ -956,14 +957,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1B2B8A322CAC0DBC0069D310 /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/psharanda/cuddly-octo-dollop";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.34.0;
-			};
-		};
 		1B2B8A352CAC0DD00069D310 /* XCRemoteSwiftPackageReference "snap-kit-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Snapchat/snap-kit-spm";
@@ -975,15 +968,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1B2B8A332CAC0DBC0069D310 /* SCSDKCameraKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1B2B8A322CAC0DBC0069D310 /* XCRemoteSwiftPackageReference "cuddly-octo-dollop" */;
-			productName = SCSDKCameraKit;
-		};
 		1B2B8A362CAC0DDD0069D310 /* SnapSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1B2B8A352CAC0DD00069D310 /* XCRemoteSwiftPackageReference "snap-kit-spm" */;
 			productName = SnapSDK;
+		};
+		1B9ABAEA2CAEED8D00438C85 /* SCSDKCameraKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SCSDKCameraKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
